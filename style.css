@@ -9,6 +9,7 @@ font-size: 50px;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .firsthalf{
     width: 50%;
@@ -16,7 +17,7 @@ section{
 }
 .firsthalf img{
     width:60%
-  
+   
 
 }
 .linkbutton{
@@ -26,8 +27,14 @@ section{
     padding: 10px 40px;
     color:white;
     font-weight:bold;
+    border-radius: 5px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
 }
